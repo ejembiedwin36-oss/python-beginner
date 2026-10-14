@@ -25,7 +25,7 @@ def count_to(number):
     for s in range(1, number + 1):
         print(s)
 
-count_to(5)"""
+count_to(5)
 
 
 # Write a function called show_names(names) that takes a list of names and uses a loop to print every name.
@@ -40,3 +40,39 @@ list_name = ['matthew', 'loveth', 'mercy', 'joshua', 'mary']
 
 
 show_names(list_name)
+
+
+# Write a function called show_even(numbers) that takes a list of numbers and prints only the even numbers.
+
+
+def show_even(numbers):
+
+    for num in numbers:
+        if num % 2 == 0:
+
+            print(num, "even")
+
+# Test the function with a list of numbers
+list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+show_even(list_numbers)
+
+
+def show_odd(numbers):
+    for num1 in numbers:
+        if num1 % 2 == 1:
+            print(num1, "odd")
+
+list_of_odd_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+show_odd(list_of_odd_numbers)"""
+
+
+#Write a function called sum_numbers(numbers) that loops through a list, adds all the numbers together, and returns the total.
+def sum_numbers(numbers):
+    total = 0
+    for num2 in numbers:
+        total += num2
+    return total
+
+your_list_here = [10, 20, 30, 40, 50]
+        
+print(sum_numbers(your_list_here))
