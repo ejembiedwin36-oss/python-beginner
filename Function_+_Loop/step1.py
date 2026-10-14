@@ -1,6 +1,6 @@
 # Write a function called print_numbers() that uses a loop to print 1 to 10.
 
-def print_numbers():
+"""def print_numbers():
     for i in range(1, 11):
         print(i)
 
@@ -25,6 +25,18 @@ def count_to(number):
     for s in range(1, number + 1):
         print(s)
 
-count_to(5)
+count_to(5)"""
 
 
+# Write a function called show_names(names) that takes a list of names and uses a loop to print every name.
+
+def show_names(names):
+
+    for names in list_name:
+        print(names)
+
+
+list_name = ['matthew', 'loveth', 'mercy', 'joshua', 'mary']
+
+
+show_names(list_name)
