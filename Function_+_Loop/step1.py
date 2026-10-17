@@ -89,3 +89,18 @@ def count_even(numbers):
 
 count__number = [1, 2, 3, 4, 5, 6, 7]
 print(f"The number of even numbers is :{count__number}")
+
+#Write a function called find_largest(numbers) that uses a loop to find and return the largest number.
+
+def find_largest(numbers):
+    largest = numbers[0]
+    for number in numbers:
+
+        if number > largest:
+            largest = number
+
+    return largest
+
+my_list = [4, 17, 3, 99, 21, 5]
+print(f"The largest number is: {find_largest(my_list)}")
+    
