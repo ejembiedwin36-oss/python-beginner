@@ -117,3 +117,17 @@ my_scores = [34, 50, 85, 12, 99, 49, 72]
 
 # 2. Call the function (it will print the numbers automatically)
 passing_scores(my_scores)
+
+
+# 1. Write a function called multiply_all(numbers) that loops through a list and returns the result of multiplying all the numbers together.
+def multiply_all(numbers):
+    if not numbers:
+        return 0
+
+    result = 1
+    for number in numbers:
+        result *= number 
+    return result
+
+y_list = [2, 3, 4]
+print(f"The product of all numbers is: {multiply_all(my_list)}")
