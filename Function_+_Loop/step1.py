@@ -104,3 +104,16 @@ def find_largest(numbers):
 my_list = [4, 17, 3, 99, 21, 5]
 print(f"The largest number is: {find_largest(my_list)}")
     
+
+# Write a function called passing_scores(scores) that takes a list of scores and prints only scores that are 50 or higher.
+
+def passing_scores(scores):
+    for score in scores:
+        if score >= 50:
+            print(score)
+
+
+my_scores = [34, 50, 85, 12, 99, 49, 72]
+
+# 2. Call the function (it will print the numbers automatically)
+passing_scores(my_scores)
