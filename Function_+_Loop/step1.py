@@ -76,3 +76,16 @@ def sum_numbers(numbers):
 your_list_here = [10, 20, 30, 40, 50]
         
 print(sum_numbers(your_list_here))
+
+
+# Write a function called count_even(numbers) that returns how many even numbers are in a list.
+
+def count_even(numbers):
+    count = 0 
+    for number in numbers:
+        if number % 2 == 0:
+            count += 1
+    return count
+
+count__number = [1, 2, 3, 4, 5, 6, 7]
+print(f"The number of even numbers is :{count__number}")
