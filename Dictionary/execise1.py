@@ -1,3 +1,6 @@
+# A mapping of all 36 Nigerian states and the Federal Capital Territory (FCT) 
+# paired with their respective administrative capitals.
+
 nigeria_states_and_capitals = {
     "Abia": "Umuahia",
     "Adamawa": "Yola",
@@ -38,16 +41,20 @@ nigeria_states_and_capitals = {
     "Zamfara": "Gusau"
 }
 
+# Initialize empty lists to separate keys (states) and values (capitals)
 states = []
 capitals = []
 
-for key, value in nigeria_states_and_capitals.items():
-    states.append(key)
-    capitals.append(value)
+# Distribute dictionary keys and values into their respective lists
+for state, capital in nigeria_states_and_capitals.items():
+    states.append(state)
+    capitals.append(capital)
 
-for x in states:
-    print(x, "states")
+# Output the list of states to the console
+for state in states:
+    print(f"{state} state")
 print("\n")
 
-for y in capitals:
-    print(y, "calpitals")
+# Output the list of capitals to the console
+for capital in capitals:
+    print(f"{capital} capital")
